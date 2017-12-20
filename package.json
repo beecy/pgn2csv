@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Output headers from a PGN file (chess) to a csv file.",
   "main": "pgn2csv.js",
-  "keywords": ["chess", "PGN"],
+  "keywords": [
+    "chess",
+    "PGN"
+  ],
   "author": "Simon Ansell <siansell@gmail.com>",
   "license": "MIT",
   "bin": {
