@@ -1,14 +1,11 @@
 {
   "name": "pgn2csv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Output headers from a PGN file (chess) to a csv file.",
   "main": "pgn2csv.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "keywords": ["chess", "PGN"],
   "author": "Simon Ansell <siansell@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.12.2",
     "pgn-parser": "github:kevinludwig/pgn-parser"
