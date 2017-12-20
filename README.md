@@ -6,7 +6,7 @@ A quick and dirty command-line utility to output headers from a PGN file (chess)
 
 ```
 npm install
-pgn2csv some/pgn/file.pgn
+./pgn2csv some/pgn/file.pgn
 ```
 
 #### Options
