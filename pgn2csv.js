@@ -67,6 +67,6 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     })
     outputFileStream.end()
 
-    console.log(`${parsedGames.length} game headers output to ${outputFile}`)
+    console.log(`${parsedGames.length} game headers output to ${outputFile}.`)
   })
 })
