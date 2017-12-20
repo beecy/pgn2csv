@@ -34,7 +34,7 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     /* delete recursive annotation variations */
     var rav_regex = /(\([^\(\)]+\))+?/g
     while (rav_regex.test(data)) {
-      data = data.replace(rav_regex, '');
+      data = data.replace(rav_regex, '')
     }
 
     data = data
@@ -56,7 +56,11 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     const outputFile = program.outputFile || `${inputFile}.csv`
     const outputFileStream = fs.createWriteStream(outputFile)
     // write headers line
-    outputFileStream.write(`${uniqueHeaders.reduce((s, header) => `${s}"${header}",`, '').slice(0, -1)}\n`)
+    outputFileStream.write(
+      `${uniqueHeaders
+        .reduce((s, header) => `${s}"${header}",`, '')
+        .slice(0, -1)}\n`,
+    )
     parsedGames.forEach(game => {
       const { headers } = game
       var s = ''

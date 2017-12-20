@@ -6,6 +6,9 @@
   "keywords": ["chess", "PGN"],
   "author": "Simon Ansell <siansell@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "pretty": "prettier --write pgn2csv.js"
+  },
   "dependencies": {
     "commander": "^2.12.2",
     "pgn-parser": "github:kevinludwig/pgn-parser"
