@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const program = require('commander')
   .version('0.0.1')
-  .option('-o, --output-file [value]', 'output file')
+  .option('-o, --output-file [value]', 'specify output file')
   .usage('inputFile')
   .parse(process.argv)
 

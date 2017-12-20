@@ -6,13 +6,13 @@ A quick and dirty command-line utility to output headers from a PGN file (chess)
 
 ```
 npm install
-pgn2csv inputFile
+pgn2csv some/pgn/file.pgn
 ```
 
 #### Options
 
   -V, --version              output the version number  
-  -o, --output-file [value]  Output file  
+  -o, --output-file [value]  specify output file  
   -h, --help                 output usage information  
 
 ### Credits
