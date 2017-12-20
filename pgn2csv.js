@@ -5,6 +5,7 @@ const fs = require('fs')
 
 const program = require('commander')
   .version('0.0.1')
+  .option('-o, --output-file [value]', 'output file')
   .usage('inputFile')
   .parse(process.argv)
 
@@ -52,7 +53,7 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
       })
     })
 
-    const outputFile = `${inputFile}.csv`
+    const outputFile = program.outputFile || `${inputFile}.csv`
     const outputFileStream = fs.createWriteStream(outputFile)
     // write headers line
     outputFileStream.write(`${uniqueHeaders.reduce((s, header) => `${s}"${header}",`, '').slice(0, -1)}\n`)
