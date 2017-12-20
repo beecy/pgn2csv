@@ -1,0 +1,16 @@
+{
+  "name": "pgn2csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pgn2csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Simon Ansell <siansell@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "pgn-parser": "github:kevinludwig/pgn-parser"
+  }
+}
