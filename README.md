@@ -18,9 +18,9 @@ pgn2csv some/pgn/file.pgn
 
 #### Options
 
-  -V, --version              output the version number
-  -o, --output-file [value]  specify output file
-  -h, --help                 output usage information
+  -V, --version              output the version number  
+  -o, --output-file [value]  specify output file  
+  -h, --help                 output usage information  
 
 ### Credits
 
