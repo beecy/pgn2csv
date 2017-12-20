@@ -17,14 +17,14 @@ if (!inputFile) {
 
 fs.readFile(inputFile, 'utf8', (err, data) => {
   if (err) {
-    console.log(err.message)
+    console.error(err.message)
     process.exit(1)
   }
 
   // read pgn file
   pgnParser((err, parser) => {
     if (err) {
-      console.log(err.message)
+      console.error(err.message)
       process.exit(1)
     }
 
