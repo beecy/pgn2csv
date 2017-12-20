@@ -1,6 +1,6 @@
 ## pgn2csv
 
-A quick and dirty command-line utility to output headers from a PGN file (chess) to a CSV file.
+A quick and dirty command-line utility to output headers from a PGN file (chess) to a CSV file. The output CSV file will contain one column for each unique header tag found in the input PGN file.
 
 ### Usage
 
