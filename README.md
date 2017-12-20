@@ -9,11 +9,18 @@ npm install
 ./pgn2csv.js some/pgn/file.pgn
 ```
 
+or install globally:
+
+```
+npm install -g
+pgn2csv some/pgn/file.pgn
+```
+
 #### Options
 
-  -V, --version              output the version number  
-  -o, --output-file [value]  specify output file  
-  -h, --help                 output usage information  
+  -V, --version              output the version number
+  -o, --output-file [value]  specify output file
+  -h, --help                 output usage information
 
 ### Credits
 
